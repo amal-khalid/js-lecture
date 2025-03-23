@@ -5,7 +5,4 @@ btn.addEventListener("click",() => {
     trailercontainer.classList.remove
     ("active");
 }
-
-
-
 );
