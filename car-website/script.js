@@ -18,6 +18,7 @@ const scrollRevealOption = {
   origin: "bottom",
   distance: "50px",
   duration: 1000,
+  reset: true,
 };
 
 ScrollReveal().reveal(".header__container h1", {
@@ -39,7 +40,7 @@ ScrollReveal().reveal(".range__card", {
 
 ScrollReveal().reveal(".location__image img", {
   ...scrollRevealOption,
-  origin: "right",
+  origin: "left",
 });
 ScrollReveal().reveal(".location__content .section__header", {
   ...scrollRevealOption,
@@ -109,7 +110,7 @@ bannerContent.forEach((item) => {
 
 ScrollReveal().reveal(".download__image img", {
   ...scrollRevealOption,
-  origin: "right",
+  origin: "left",
 });
 ScrollReveal().reveal(".download__content .section__header", {
   ...scrollRevealOption,
